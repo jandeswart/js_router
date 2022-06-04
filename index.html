@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Vanilla Javascript Router</title>
 
-		<link rel="stylesheet" href="./static/css/main.css" />
-		<link
-			href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css"
-			rel="stylesheet"
-		/>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Vanilla Javascript Router</title>
 
-		<script type="module" src="./static/js/main.js" defer></script>
-	</head>
+	<link rel="stylesheet" href="./static/css/main.css" />
+	<link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css" rel="stylesheet" />
 
-	<body>
-		<div id="Root" class="" root>
-			<nav id="MainNav" class="sidebar">
-				<a href="/" onclick="route()">Home</a>
-				<a href="/about" onclick="route()">About</a>
-				<a href="/lorem" onclick="route()">Lorem</a>
-			</nav>
+	<script type="module" src="./static/js/main.js" defer></script>
+</head>
 
-			<main></main>
-		</div>
-	</body>
+<body>
+	<div id="Root" class="root">
+		<nav id="MainNav" class="sidebar">
+			<a href="/" onclick="route()">Home</a>
+			<a href="/about" onclick="route()">About</a>
+			<a href="/lorem" onclick="route()">Lorem</a>
+		</nav>
+
+		<main></main>
+	</div>
+</body>
+
 </html>
